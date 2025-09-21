@@ -9,8 +9,8 @@ import * as THREE from 'three';
 import './Lanyard.css';
 
 // Remplacez par votre fichier GLB
-const cardGLB = "/portofolio/assets/Henry.glb";
-const lanyard = "/portofolio/assets/lanyard.png";
+const cardGLB = "/assets/Henry.glb";
+const lanyard = "/assets/lanyard.png";
 
 extend({ MeshLineGeometry, MeshLineMaterial });
 
