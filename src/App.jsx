@@ -139,13 +139,13 @@ function App() {
                 <div className="flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-y-8 sm:gap-y-0 mb-4 w-full">
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      20<span className="text-violet-500">+</span>
+                      10<span className="text-violet-500">+</span>
                     </h1>
                     <p>Project Finished</p>
                   </div>
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      3<span className="text-violet-500">+</span>
+                      2<span className="text-violet-500">+</span>
                     </h1>
                     <p>Years of Experience</p>
                   </div>
@@ -204,9 +204,7 @@ function App() {
             ))}
           </div>
         </div>
-        {/* tentang */}
 
-        {/* Proyek */}
         <div className="proyek mt-32 py-10" id="project" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true"></div>
         <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Project</h1>
         <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Showcasing a selection of projects that reflect my skills, creativity, and passion for building meaningful digital experiences.</p>
@@ -215,7 +213,7 @@ function App() {
           <div style={{ height: 'auto', position: 'relative' }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true" >
             <ChromaGrid
               items={listProyek}
-              onItemClick={handleProjectClick} // Kirim fungsi untuk handle klik
+              onItemClick={handleProjectClick}
               radius={500}
               damping={0.45}
               fadeOut={0.6}
@@ -223,10 +221,9 @@ function App() {
             />
           </div>
         </div>
-        {/* Proyek */}
 
 
-        {/* Kontak */}
+        
         <div className="kontak mt-32 sm:p-10 p-0" id="contact">
           <h1
             className="text-4xl mb-2 font-bold text-center"
@@ -246,14 +243,14 @@ function App() {
             Get in touch with me or chat in real-time
           </p>
 
-          {/* Container dua kolom */}
+      
           <div className="flex flex-col md:flex-row gap-8">
-            {/* Chat Room di kiri */}
+           
             <div className="flex-1 bg-zinc-800 p-6 rounded-md" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
               <ChatRoom />
             </div>
 
-            {/* Contact Form di kanan */}
+          
             <div className="flex-1">
               <form
                 action="https://formsubmit.co/henry.gossou17@gmail.com"
@@ -311,7 +308,7 @@ function App() {
             </div>
           </div>
         </div>
-        {/* Kontak */}
+        
       </main>
 
       <ProjectModal

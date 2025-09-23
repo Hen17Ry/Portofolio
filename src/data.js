@@ -238,8 +238,8 @@ import Projeth1 from "/assets/proyek/projeth1.png";
 import Projeth2 from "/assets/proyek/projeth2.png";
 import Projeth3 from "/assets/proyek/projeth3.png";
 import Projeth4 from "/assets/proyek/projeth4.png";
-import Proyek5 from "/assets/proyek/proyek5.jpg";
-import Proyek6 from "/assets/proyek/proyek6.jpg";
+import Projeth5 from "/assets/proyek/projeth5.png";
+import Projeth6 from "/assets/proyek/projeth6.png";
 
 export const listProyek = [
   {
@@ -288,24 +288,35 @@ export const listProyek = [
   },
     {
     id: 5,
-    image: Proyek5,
-    title: "Color Blindness Detection App",
-    subtitle: "A cross-platform application available on both mobile and desktop...",
-    fullDescription:"A cross-platform application available on both mobile and desktop, created to help identify different types of color blindness through color recognition tests. The app provides users with instant results, making it useful for educational, medical, and self-assessment purposes. Its intuitive design and accessibility aim to support individuals in understanding and managing color vision deficiencies.",
+    image: Projeth5,
+    title: "DRS Guest House Web App",
+    subtitle: "Web platform for booking a rooxm at DRS Guest House",
+    fullDescription:"Web platform for booking a room at DRS Guest House, featuring an intuitive interface that allows users to easily browse available rooms, check amenities, and make reservations. The application is designed to enhance user experience with seamless navigation and secure payment options, ensuring a hassle-free booking process.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/Hen17Ry/Drsweb",
     dad: "500",
   },
   {
     id: 6,
-    image: Proyek6,
-    title: "Coffee Shop Website",
-    subtitle: "A fully functional website designed for a coffee shop, enabling...",
-    fullDescription:"A fully functional website designed for a coffee shop, enabling customers to explore the menu,",
+    image: Projeth6,
+    title: "TraceLess Application",
+    subtitle: "A Application for deleting a metadata from a file before sharing it on the internet",
+    fullDescription:"A Application for deleting metadata from a file before sharing it on the internet, ensuring user privacy and security. The app scans files for embedded metadata such as location, device information, and timestamps, allowing users to remove this data with a single click before uploading or sharing their files online.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/SophieAbsf/Traceless2.0",
+    dad: "600",
+  },
+  {
+    id: 6,
+    image: Projeth6,
+    title: "More others projects",
+    subtitle: "More Other Project on my github",
+    fullDescription:"You can find more of my projects on my GitHub profile, showcasing a diverse range of applications and tools I've developed across various technologies and frameworks. Each project reflects my commitment to coding excellence and innovation.",
+    borderColor: "#10B981",
+    gradient: "linear-gradient(180deg, #10B981, #000)",
+    url: "https://github.com/Hen17Ry",
     dad: "600",
   },
 ];
