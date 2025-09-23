@@ -129,7 +129,7 @@ function App() {
                 </h2>
 
                 <BlurText
-                  text="I’m Faris Edrik Prayoga, a full-stack developer passionate about building modern, high-performance applications with an intuitive user experience. I enjoy working with the latest technologies like Artificial Intelligence, Machine Learning, and cloud-based development, blending creativity with precision to deliver impactful solutions. With over three years of experience and more than 20 completed projects, I’m committed to helping users and businesses grow in the digital era through functional, aesthetic, and scalable digital products."
+                  text="I am a passionate computer enthusiast. Curious and dynamic, I am fully invested in this field and looking for new challenges to solve and level up. Coding is a passion and development is a lifestyle. Above all, I like to put my skills to good ideas to bring more to those who deserve it."
                   delay={150}
                   animateBy="words"
                   direction="top"
