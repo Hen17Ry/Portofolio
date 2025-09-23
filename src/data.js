@@ -240,6 +240,7 @@ import Projeth3 from "/assets/proyek/projeth3.png";
 import Projeth4 from "/assets/proyek/projeth4.png";
 import Projeth5 from "/assets/proyek/projeth5.png";
 import Projeth6 from "/assets/proyek/projeth6.png";
+import Projeth7 from "/assets/proyek/projeth7.png";
 
 export const listProyek = [
   {
@@ -310,7 +311,7 @@ export const listProyek = [
   },
   {
     id: 6,
-    image: Projeth6,
+    image: Projeth7,
     title: "More others projects",
     subtitle: "More Other Project on my github",
     fullDescription:"You can find more of my projects on my GitHub profile, showcasing a diverse range of applications and tools I've developed across various technologies and frameworks. Each project reflects my commitment to coding excellence and innovation.",
