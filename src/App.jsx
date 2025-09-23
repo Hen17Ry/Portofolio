@@ -82,7 +82,8 @@ function App() {
               <ShinyText text="Hi I'm Henry GOSSOU" disabled={false} speed={3} className='custom-class' />
             </h1>
             <BlurText
-              text="I am a passionate computer enthusiast. Curious and dynamic, I am fully invested in this field and looking for new challenges to solve and level up. Coding is a passion and development is a lifestyle. Above all, I like to put my skills to good ideas to bring more to those who deserve it."
+              text="Hello, my name is Henry GOSSOU.
+I have always had a particular interest in medical science, which instilled in me a desire to improve the living conditions around me. I then switched to software engineering, which put the power to act in my hands. This love of technology, but above all of innovation, is particularly supported by my curious and dynamic nature, which allows me to be committed and passionate about this field. I am constantly seeking new challenges and improving my skills so that I can thrive in a world where code is a real solution to real-life problems. It is in this context that I am committed to putting my skills to good use, especially for those who really need them."
               delay={150}
               animateBy="words"
               direction="top"
@@ -91,7 +92,7 @@ function App() {
             <div className="flex items-center sm:gap-4 gap-2">
               <a 
                 href="./assets/CV.pdf" 
-                download="Faris_Edrik_Prayoga_CV.pdf" 
+                download="Henry_GOSSOU_CV.pdf" 
                 className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-gray-700 hover:bg-[#222] transition-colors"
               >
                 <ShinyText text="Download CV" disabled={false} speed={3} className="custom-class" />
